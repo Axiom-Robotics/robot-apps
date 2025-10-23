@@ -1,0 +1,80 @@
+{
+  "catalog_version": "1.0.0",
+  "last_updated": "2025-10-23T13:33:00Z",
+  "total_apps": 4,
+  
+  "apps": [
+    {
+      "app_id": "draw_square",
+      "app_name": "Square Drawing",
+      "version": "1.0.0",
+      "description": "Draw a perfect square with your TurtleBot3",
+      "category": "shapes",
+      "robot_type": "turtlebot3",
+      
+      "script_url": "https://raw.githubusercontent.com/Axiom-Robotics/robot-apps/main/apps/turtlebot3/shapes/draw_square.py",
+      "script_filename": "draw_square.py",
+      
+      "commands": ["square"],
+      "icon": "🔲",
+      
+      "downloads": 0,
+      "rating": 5.0,
+      "verified": true
+    },
+    {
+      "app_id": "draw_rectangle",
+      "app_name": "Rectangle Drawing",
+      "version": "1.0.0",
+      "description": "Draw rectangles with custom dimensions",
+      "category": "shapes",
+      "robot_type": "turtlebot3",
+      
+      "script_url": "https://raw.githubusercontent.com/Axiom-Robotics/robot-apps/main/apps/turtlebot3/shapes/draw_rectangle.py",
+      "script_filename": "draw_rectangle.py",
+      
+      "commands": ["rectangle"],
+      "icon": "▬",
+      
+      "downloads": 0,
+      "rating": 5.0,
+      "verified": true
+    },
+    {
+      "app_id": "draw_circle",
+      "app_name": "Circle Drawing",
+      "version": "1.0.0",
+      "description": "Draw smooth circular paths",
+      "category": "shapes",
+      "robot_type": "turtlebot3",
+      
+      "script_url": "https://raw.githubusercontent.com/Axiom-Robotics/robot-apps/main/apps/turtlebot3/shapes/draw_circle.py",
+      "script_filename": "draw_circle.py",
+      
+      "commands": ["circle"],
+      "icon": "⭕",
+      
+      "downloads": 0,
+      "rating": 5.0,
+      "verified": true
+    },
+    {
+      "app_id": "draw_triangle",
+      "app_name": "Triangle Drawing",
+      "version": "1.0.0",
+      "description": "Draw equilateral triangles",
+      "category": "shapes",
+      "robot_type": "turtlebot3",
+      
+      "script_url": "https://raw.githubusercontent.com/Axiom-Robotics/robot-apps/main/apps/turtlebot3/shapes/draw_triangle.py",
+      "script_filename": "draw_triangle.py",
+      
+      "commands": ["triangle"],
+      "icon": "🔺",
+      
+      "downloads": 0,
+      "rating": 5.0,
+      "verified": true
+    }
+  ]
+}
